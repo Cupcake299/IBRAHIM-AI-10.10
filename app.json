@@ -1,5 +1,5 @@
 {
-  "name":"BMW-MD💥",
+  "name":"Logout",
   "description":"bot whatsapp développé by Ibrahim adams",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/8825dbddf23e4be4ca05d.jpg",
@@ -10,14 +10,14 @@
     "PREFIX":
     {
       "description":"choose your prefix of bot",
-      "value":".",
+      "value":"+",
       "required":true
     },
     "AUTO_READ_STATUS":
     {
       "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
       "value":"yes",
-      "required":false
+      "required":true
     }, "AUTO_DOWNLOAD_STATUS":
     {
       "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"𝗕𝗠𝗪-𝗠𝗗",
+      "value":"𝐋𝚯𝐆𝚯𝐔𝚻",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/f889ad533e5b6d8fd8276.jpg,https://telegra.ph/file/d98532bb4aa4569e92afb.mp4",
+      "value":"https://telegra.ph/file/23649d2aaf86df433b1e9.jpg",
       "required":false
        
      },
@@ -74,20 +74,20 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "MR IBRAHIM"
+    "value": "ʟօɢօʊȶ"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254710772666"
+    "value": "233505796541"
   },
     "WARN_COUNT":
   {
     "desc": "this is the limit of warn for warning commandes",
     "required": false,
-    "value": "3"
+    "value": "6"
   },
   "STARTING_BOT_MESSAGE":
   {
